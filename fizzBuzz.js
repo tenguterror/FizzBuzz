@@ -12,4 +12,4 @@ const fizzBuzz = (start = 1, end = 10) => {
   }
 };
 
-fizzBuzz(1, 20);
+fizzBuzz(1, 500);
