@@ -1,15 +1,15 @@
 const fizzBuzz = (start = 1, end = 10) => {
   for (let i = start; i <= end; i++) {
     if (i % 5 === 0 && i % 3 === 0) {
-      return `fizzBuzz`;
+      console.log('fizzBuzz');
     } else if (i % 3 === 0) {
-      return `fizz`;
+      console.log('fizz');
     } else if (i % 5 === 0) {
-      return `Buzz`;
+      console.log('Buzz');
     } else {
-      return i;
+      console.log(i);
     }
   }
 };
 
-console.log(fizzBuzz(3, 10));
+fizzBuzz(1, 20);
